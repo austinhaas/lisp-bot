@@ -1,0 +1,13 @@
+* lisp-bot
+** todo
+*** bind special variables in their own thread
+    - we should be able to run multiple bots concurrently
+*** modularize
+    - keep generic features in lisp-bot, put specific ones in a new
+      system
+    - add a simple system for responding to regular expressions
+*** add message relaying
+    - see cliki.lisp in cl-irc examples
+*** fetch tweets
+    - fetch any new tweets from a list of tweeters
+    - fetch a tweet when a Twitter url is pasted into the chat
