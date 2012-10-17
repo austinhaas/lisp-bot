@@ -1,6 +1,8 @@
 (defpackage #:lisp-bot
   (:use #:cl
-        #:cl-irc
         #:cl-ppcre
         #:bordeaux-threads)
-  (:export #:start-bot))
+  (:export #:start-processing-messages
+           #:stop-processing-messages
+           #:make-attention-prefix
+           ))

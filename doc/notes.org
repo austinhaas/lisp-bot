@@ -1,11 +1,12 @@
 * lisp-bot
 ** todo
+*** setup dispatch system
+    - separate processing from flow-control
+    - processing will be handled by memoized functions
+    - flow-control is handled by dispatch functions and an EXIT
+      primitive
 *** bind special variables in their own thread
     - we should be able to run multiple bots concurrently
-*** modularize
-    - keep generic features in lisp-bot, put specific ones in a new
-      system
-    - add a simple system for responding to regular expressions
 *** add message relaying
     - see cliki.lisp in cl-irc examples
 *** fetch tweets
